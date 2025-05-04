@@ -1,0 +1,32 @@
+.patientinfo-container {
+    padding: 2rem;
+    background-color: #fdfdfd;
+    min-height: 100vh;
+  }
+  
+  .patientinfo-title {
+    font-size: 2rem;
+    color: #0d6efd;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .patientinfo-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+  }
+  
+  .patientinfo-table th,
+  .patientinfo-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  .patientinfo-table th {
+    background-color: #0d6efd;
+    color: white;
+  }
+  

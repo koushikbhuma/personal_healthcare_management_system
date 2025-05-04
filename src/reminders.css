@@ -1,0 +1,45 @@
+.reminder-page-container {
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reminders-title {
+    font-size: 2rem;
+    color: #0d6efd;
+    margin-bottom: 1.5rem;
+  }
+  
+  .reminder-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .reminder-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .reminder-card h4 {
+    margin-bottom: 0.5rem;
+    color: #0d6efd;
+  }
+  
+  .reminder-card p {
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  .reminder-card:hover {
+    transform: translateY(-5px);
+  }
+  
